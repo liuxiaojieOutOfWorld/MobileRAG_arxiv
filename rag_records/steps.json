@@ -1,0 +1,35 @@
+[
+  {
+    "step_id": 1,
+    "mode": "planning",
+    "thought": "The user has clearly instructed to open \"Google Maps.\" Since the app name is specified, I should check if \"Google Maps\" is installed using LocalRAG.",
+    "operation": "Check if the \"Google Maps\" app is installed on the device.",
+    "action": "Query LocalRAG(Google Maps)",
+    "memory": "None.\n",
+    "reflection": null,
+    "planning": null,
+    "screenshot": "0001.jpg"
+  },
+  {
+    "step_id": 2,
+    "mode": "planning",
+    "thought": "The user has requested to open Google Maps. According to the LocalRAG results, the \"Google Maps\" app is installed on the device. The next step is to open the app as requested.",
+    "operation": "Open the Google Maps app for the user.",
+    "action": "Open app(\"Google Maps\")",
+    "memory": "None.\n",
+    "reflection": null,
+    "planning": null,
+    "screenshot": "0002.jpg"
+  },
+  {
+    "step_id": 3,
+    "mode": "action",
+    "thought": "The Google Maps app is already open, fulfilling the user's request.",
+    "operation": "The Google Maps app is open, completing the user's instruction.",
+    "action": "Stop",
+    "memory": "None.\n",
+    "reflection": null,
+    "planning": null,
+    "screenshot": "0003.jpg"
+  }
+]
